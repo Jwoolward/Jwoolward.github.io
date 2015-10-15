@@ -1,0 +1,33 @@
+h1{
+     color: #FFFFFF;
+  text-align:center;
+  font-family: 'Iceberg'
+}
+ body{
+      color: #FFFFFF;
+      font-size:20;
+      text-align: center;
+    background-image: url(http://fotonin.com/data_images/out/2/744001-background-pictures.jpg);
+
+ }
+a:hover{
+  color:white;
+}
+
+a:active{
+  color:black
+}
+
+a:link{
+  color:inherit;
+}
+
+a:link{
+  color:inherit;
+}
+
+
+
+tr{
+  font-size:30;
+}
