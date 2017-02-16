@@ -16,17 +16,66 @@ body {
 
 .top {
   min-height: 200px;
-  background: #ED6B16;
-  border-radius: 10px 10px 0 0;
+  padding: 80px 0px;
+  height: 700px;
+
+  }
+
+
+div.tapu {
+
+    float:left;
+    margin:125px;
 }
 
-.footer {
-  min-height: 200px;
-  padding: 20px;
-  
-  border-radius: 0 0 10px 10px;
+div p {
+  text-align: center;
 }
 
+/*Footer*********** */
+
+
+  footer{
+
+    background-color: #555;
+    padding: 80px 0px;
+    height:  200px;
+  }
+
+footer h4 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.3em;
+
+}
+
+footer hr {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 10px 0px;
+}
+
+
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 100;
+
+}
+
+footer a span {
+font-weight: bold;
+color:#000000;
+
+}
+
+
+footer a:hover{
+  color: rgba(255, 255, 255, 0.8);
+
+}
+
+/*End Footer */
 .pageTitle {
   font-size: 24px;
   line-height: 40px;
@@ -108,3 +157,9 @@ body {
   border-radius: 0 0 5px 5px;
 }
 /* borrowed from http://codepen.io/skeurentjes/pen/jasfd */
+.wrap  {
+width: 90%;
+max-width: 1100px;
+margin: 0 auto;
+
+}
