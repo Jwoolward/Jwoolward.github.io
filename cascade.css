@@ -1,6 +1,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,700,600,800,900);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 
 body {
 	background-color: #eee;
@@ -54,7 +54,7 @@ ol, ul {
 	float: left;
 }
 
-h1,h2,h3{
+h1,h2,h3,h4,h5,h6{
   color: black;
 }
 
@@ -100,7 +100,7 @@ background-image: url("../images/footer_lodyas.png");
 }
 
 .wrap  {
-width: 80%;
+width: 70%;
 max-width: 1100px;
 margin: 0 auto;
 
@@ -124,7 +124,7 @@ footer{
 
     background-color: #333333;
     padding: 80px 0px;
-    height:  200px;
+    height:  250px;
   }
 
 footer h4 {
@@ -272,4 +272,20 @@ ul.sub-menu > li:last-child > a {
 
 #main-menu li:hover > ul.sub-menu {
 	display: block; /* show the submenu */
+}
+
+.sidebar{
+  float: none;
+  list-style-type: none;
+}
+
+#mobilemenu a{
+  display: block;
+  color: white;
+  padding: 10%;
+  border: none;
+}
+
+#mobilemenu a:hover{
+  background-color: #C5C1C0;
 }
