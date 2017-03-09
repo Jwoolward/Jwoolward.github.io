@@ -273,23 +273,3 @@ ul.sub-menu > li:last-child > a {
 #main-menu li:hover > ul.sub-menu {
 	display: block; /* show the submenu */
 }
-
-
-.sidebar{
-  float: none;
-  list-style-type: none;
-}
-#goku{
-	background-color: black;
-}
-
-#goku a{
-  display: block;
-  color: white;
-  padding: 10%;
-  border: none;
-}
-
- a:hover{
-  background-color: slategrey;
-}
