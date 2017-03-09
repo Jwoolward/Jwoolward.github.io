@@ -274,10 +274,7 @@ ul.sub-menu > li:last-child > a {
 	display: block; /* show the submenu */
 }
 
-@media  (max-width: 700px) {
-#main-menu,header {
-  display: none;
-}
+
 .sidebar{
   float: none;
   list-style-type: none;
