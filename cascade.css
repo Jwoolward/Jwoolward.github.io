@@ -273,13 +273,7 @@ ul.sub-menu > li:last-child > a {
 #main-menu li:hover > ul.sub-menu {
 	display: block; /* show the submenu */
 }
-/*
-@media  (max-width: 700px) {
-#main-menu,header {
-  display: none;
-}
 
-*/
 .sidebar{
   float: none;
   list-style-type: none;
